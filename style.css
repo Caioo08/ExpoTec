@@ -9,7 +9,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #16538c;
-  border-bottom: 2px solid red;
+  border-bottom: 3px solid black;
 }
 
 li {
@@ -22,7 +22,6 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border-left: 1px solid #fff;
   font-weight: 500;
 }
 
