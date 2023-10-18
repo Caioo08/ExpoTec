@@ -8,7 +8,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #16538c;
   border-bottom: 2px solid red;
 }
 
@@ -23,8 +23,22 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   border-left: 1px solid #fff;
+  font-weight: 500;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #4cb4f5;
+  font-weight: 700;
+  color: black;
+}
+#MyElement {
+border-radius: 178px 0px 0px 178px ;
+-moz-border-radius: 178px 0px 0px 178px ;
+-webkit-border-radius: 178px 0px 0px 178px ;
+background-color: red;
+margin-left: 65%;
+text-align: right;
+margin-top: 2px;
+padding-bottom: 20%;
+display: none;
 }
