@@ -35,10 +35,10 @@ li a:hover {
   -moz-border-radius: 178px 0px 0px 178px;
   -webkit-border-radius: 178px 0px 0px 178px;
   background-color: #0289f7;
-  margin-left: 65%;
+  margin-left: 67%;
   text-align: right;
   margin-top: 1px;
-  padding: 7% 0;
+  padding: 8% 0;
 }
 #MyElement p {
   margin-left: 30%;
@@ -50,7 +50,7 @@ border-radius: 0px 178px 178px 0px ;
 -webkit-border-radius: 0px 178px 178px 0px ;
 text-align: left;
 margin-top: 1px ;
-padding: 7% 0;
+padding: 8% 0;
 background-color: #0289f7;
 margin-right:65%;
 }
@@ -58,3 +58,15 @@ margin-right:65%;
   margin-right: 30% ;
   margin-left: 10px;
 }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
