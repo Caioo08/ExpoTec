@@ -31,13 +31,30 @@ li a:hover {
   color: black;
 }
 #MyElement {
-border-radius: 178px 0px 0px 178px ;
--moz-border-radius: 178px 0px 0px 178px ;
--webkit-border-radius: 178px 0px 0px 178px ;
-background-color: red;
-margin-left: 65%;
-text-align: right;
-margin-top: 2px;
-padding-bottom: 20%;
-display: none;
+  border-radius: 178px 0px 0px 178px;
+  -moz-border-radius: 178px 0px 0px 178px;
+  -webkit-border-radius: 178px 0px 0px 178px;
+  background-color: #0289f7;
+  margin-left: 65%;
+  text-align: right;
+  margin-top: 1px;
+  padding: 7% 0;
+}
+#MyElement p {
+  margin-left: 30%;
+  margin-right: 10px;
+}
+#MyElement2 {
+border-radius: 0px 178px 178px 0px ;
+-moz-border-radius: 0px 178px 178px 0px ;
+-webkit-border-radius: 0px 178px 178px 0px ;
+text-align: left;
+margin-top: 1px ;
+padding: 7% 0;
+background-color: #0289f7;
+margin-right:65%;
+}
+#MyElement2 p{
+  margin-right: 30% ;
+  margin-left: 10px;
 }
