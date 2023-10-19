@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -35,7 +34,7 @@ li a:hover {
   -moz-border-radius: 178px 0px 0px 178px;
   -webkit-border-radius: 178px 0px 0px 178px;
   background-color: #0289f7;
-  margin-left: 67%;
+  margin-left: 66.7%;
   text-align: right;
   margin-top: 1px;
   padding: 8% 0;
@@ -43,6 +42,7 @@ li a:hover {
 #MyElement p {
   margin-left: 30%;
   margin-right: 10px;
+  color: #fff;
 }
 #MyElement2 {
 border-radius: 0px 178px 178px 0px ;
@@ -57,6 +57,8 @@ margin-right:65%;
 #MyElement2 p{
   margin-right: 30% ;
   margin-left: 10px;
+  color: #fff;
+  font-size: 18px;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
