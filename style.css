@@ -37,38 +37,79 @@ li a:hover {
   margin-left: 66.7%;
   text-align: right;
   margin-top: 1px;
-  padding: 8% 0;
+  padding: 4% 0;
 }
 #MyElement p {
   margin-left: 30%;
   margin-right: 10px;
   color: #fff;
+  font-size: 15px;
+  margin: 1% 5% 0 20%;
 }
 #MyElement2 {
-border-radius: 0px 178px 178px 0px ;
--moz-border-radius: 0px 178px 178px 0px ;
--webkit-border-radius: 0px 178px 178px 0px ;
-text-align: left;
-margin-top: 1px ;
-padding: 8% 0;
-background-color: #0289f7;
-margin-right:65%;
+  border-radius: 0px 178px 178px 0px;
+  -moz-border-radius: 0px 178px 178px 0px;
+  -webkit-border-radius: 0px 178px 178px 0px;
+  text-align: left;
+  margin-top: 1px;
+  padding: 4% 0;
+  background-color: #0289f7;
+  margin-right: 65%;
 }
-#MyElement2 p{
-  margin-right: 30% ;
+#MyElement2 p {
+  margin-right: 30%;
   margin-left: 10px;
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
+  margin: 1% 20% 0 5%;
 }
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.max #MyElement  p{
+  font-size: 20px;
+  padding-left: 25%;
+}
+.max #MyElement2  p{
+  font-size: 20px;
+  padding-right: 25%;
+}
+button{
+  color: black;
+  background-color: aqua;
+  font-size: large;
+}
