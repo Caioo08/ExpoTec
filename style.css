@@ -8,9 +8,17 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #16538c;
-  border-bottom: 3px solid black;
 }
-
+header{
+  border-bottom: 3px solid black;
+  background-color: #16538c ;
+}
+:root{
+  --switch-bg-url: url(./phone-portrait-outline.svg)
+}
+.max{
+  --switch-bg-url: url(./desktop-outline.svg)
+}
 li {
   float: right;
 }
@@ -108,8 +116,71 @@ li a:hover {
   font-size: 20px;
   padding-right: 25%;
 }
-button{
-  color: black;
-  background-color: aqua;
-  font-size: large;
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 4px auto;
+}
+
+#switch button {
+  width: 40px;
+  height: 40px;
+  background: #1b456d var(--switch-bg-url) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  animation: slide-back .5s;
+}
+.max #switch button {
+  animation: slide-in .5s forwards;
+}
+
+#switch button:hover{
+outline: 1px solid black;
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background-color: #3473ad;
+  border: 1px solid black;
+  backdrop-filter: blur(4px);
+  border-radius: 9999px;
+}
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes slide-back{
+  from{
+    left: 50%;
+  }
+  to{
+    left:0
+  }
+}
+
+#MyElement button{
+  border: none;
+  width: 70px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #263d5088;
+  color: white;
+  margin-top: 10px;
+  margin-right: ;
+}
+.max #MyElement button{
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
 }
