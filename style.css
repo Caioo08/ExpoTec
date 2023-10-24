@@ -148,6 +148,12 @@ li a:hover {
     height: 50px;
     font-size: 25px;
   }
+  .card {
+    width: 400px;
+  }
+  .card button {
+    font-size: 16px;
+  }
 }
 .row {
   display: flex;
@@ -159,8 +165,11 @@ li a:hover {
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
   padding: 30px;
   margin: 20px;
-  width: 400px;
+  width: 200px;
   transition: all 0.3s ease-out;
+}
+.card h2 {
+  font-size: 20px;
 }
 .card:hover {
   transform: translateY(-5px);
@@ -187,4 +196,20 @@ li a:hover {
 
 .red {
   border-left: 3px solid #b3404a;
+}
+.card button {
+  border: none;
+  float: right;
+  margin-top: 8px;
+  background-color: #4895ff;
+  border-radius: 6px;
+  padding: 2px;
+}
+.card button:hover {
+  background-color: #16538c;
+  transition-duration: 1s;
+}
+.card a {
+  color: #fff;
+  text-decoration: none;
 }
