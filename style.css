@@ -69,16 +69,21 @@ li a:hover {
 .col-12 {
   width: 100%;
 }
-@media (min-width: 300px) {
+@media (min-width: 100px) {
+  .card{
+   width: 150px;
+  }
   .card h2 {
     font-size: 14px;
   }
-  .card button{
+  .card button {
     font-size: 12px;
   }
 }
 @media (min-width: 700px) {
- 
+  .card {
+    width: 300px;
+  }
   .card h2 {
     font-size: 20px;
   }
@@ -95,8 +100,8 @@ li a:hover {
 .card {
   border-radius: 5px;
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-  padding: 30px;
-  margin: 20px;
+  margin: 15px;
+  padding: 30px 10px 15px 15px ;
   width: 200px;
   transition: all 0.3s ease-out;
 }
