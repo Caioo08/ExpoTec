@@ -70,8 +70,8 @@ li a:hover {
   width: 100%;
 }
 @media (min-width: 100px) {
-  .card{
-   width: 150px;
+  .card {
+    width: 150px;
   }
   .card h2 {
     font-size: 14px;
@@ -101,7 +101,7 @@ li a:hover {
   border-radius: 5px;
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
   margin: 15px;
-  padding: 30px 10px 15px 15px ;
+  padding: 30px 10px 15px 15px;
   width: 200px;
   transition: all 0.3s ease-out;
 }
@@ -132,6 +132,47 @@ li a:hover {
 
 .red {
   border-left: 3px solid #b3404a;
+  border-right: 3px solid #b3404a;
+}
+.ds {
+  border-left: 3px solid #993399;
+  border-right: 3px solid #993399;
+}
+.adm {
+  border-left: 3px solid #0000ffb7;
+  border-right: 3px solid #0000ffb7;
+}
+.edif {
+  border-left: 3px solid #ff7300;
+  border-right: 3px solid #ff7300;
+}
+.meca {
+  border-left: 3px solid #ff0000cc;
+  border-right: 3px solid #ff0000cc;
+}
+.nut {
+  border-left: 3px solid #008000af;
+  border-right: 3px solid #008000af;
+}
+.st{
+  border-left: 3px solid #008000;
+  border-right: 3px solid #008000;
+}
+.mec{
+  border-left: 3px solid #ffd000;
+  border-right: 3px solid #ffd000;
+}
+.ele{
+  border-left: 3px solid #131386;
+  border-right: 3px solid #131386;
+}
+.enf{
+  border-left: 3px solid #ff00009d;
+  border-right: 3px solid #FF00009d;
+}
+.rh{
+  border-left: 3px solid #c8a2c8 ;
+  border-right: 3px solid #c8a2c8 ;
 }
 .card button {
   border: none;
