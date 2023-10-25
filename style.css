@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 ul {
   list-style-type: none;
@@ -31,42 +32,7 @@ li a:hover {
   font-weight: 700;
   color: black;
 }
-#MyElement {
-  border-radius: 178px 0px 0px 178px;
-  -moz-border-radius: 178px 0px 0px 178px;
-  -webkit-border-radius: 178px 0px 0px 178px;
-  background-color: #0289f7;
-  margin-left: 66.7%;
-  text-align: right;
-  margin-top: 1px;
-  padding: 4% 0;
-  display: none;
-}
-#MyElement p {
-  margin-left: 30%;
-  margin-right: 10px;
-  color: #fff;
-  font-size: 15px;
-  margin: 1% 5% 0 20%;
-}
-#MyElement2 {
-  border-radius: 0px 178px 178px 0px;
-  -moz-border-radius: 0px 178px 178px 0px;
-  -webkit-border-radius: 0px 178px 178px 0px;
-  text-align: left;
-  margin-top: 1px;
-  padding: 4% 0;
-  background-color: #0289f7;
-  margin-right: 65%;
-  display: none;
-}
-#MyElement2 p {
-  margin-right: 30%;
-  margin-left: 10px;
-  color: #fff;
-  font-size: 15px;
-  margin: 1% 20% 0 5%;
-}
+
 .col-1 {
   width: 8.33%;
 }
@@ -103,60 +69,24 @@ li a:hover {
 .col-12 {
   width: 100%;
 }
-
-#MyElement button {
-  border: none;
-  width: 70px;
-  height: 30px;
-  border-radius: 50px;
-  background-color: #263d5088;
-  margin-top: 10px;
+@media (min-width: 300px) {
+  .card h2 {
+    font-size: 14px;
+  }
+  .card button{
+    font-size: 12px;
+  }
 }
-#MyElement2 a {
-  text-decoration: none;
-  color: white;
-}
-#MyElement a {
-  text-decoration: none;
-  color: white;
-}
-
-#MyElement2 button {
-  border: none;
-  width: 70px;
-  height: 30px;
-  border-radius: 50px;
-  background-color: #263d5088;
-  color: white;
-  margin-top: 10px;
-}
-
 @media (min-width: 700px) {
-  #MyElement p {
+ 
+  .card h2 {
     font-size: 20px;
-    padding-left: 25%;
-  }
-  #MyElement2 p {
-    font-size: 20px;
-    padding-right: 25%;
-  }
-  #MyElement2 button {
-    width: 100px;
-    height: 50px;
-    font-size: 25px;
-  }
-  #MyElement button {
-    width: 100px;
-    height: 50px;
-    font-size: 25px;
-  }
-  .card {
-    width: 400px;
   }
   .card button {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
+
 .row {
   display: flex;
   justify-content: center;
@@ -170,9 +100,7 @@ li a:hover {
   width: 200px;
   transition: all 0.3s ease-out;
 }
-.card h2 {
-  font-size: 20px;
-}
+
 .card:hover {
   transform: translateY(-5px);
   cursor: pointer;
@@ -180,7 +108,6 @@ li a:hover {
 
 .card p {
   color: #a3a5ae;
-  font-size: 16px;
 }
 
 .image {
