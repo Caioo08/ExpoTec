@@ -40,6 +40,7 @@ li a:hover {
   text-align: right;
   margin-top: 1px;
   padding: 4% 0;
+  display: none;
 }
 #MyElement p {
   margin-left: 30%;
@@ -57,6 +58,7 @@ li a:hover {
   padding: 4% 0;
   background-color: #0289f7;
   margin-right: 65%;
+  display: none;
 }
 #MyElement2 p {
   margin-right: 30%;
@@ -188,10 +190,12 @@ li a:hover {
 }
 .blue {
   border-left: 3px solid #4895ff;
+  border-right: 3px solid #4895ff;
 }
 
 .green {
   border-left: 3px solid #3bb54a;
+  border-right: 3px solid #3bb54a;
 }
 
 .red {
