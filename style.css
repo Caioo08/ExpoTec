@@ -185,6 +185,10 @@ li a:hover {
   border-radius: 6px;
   padding: 2px;
 }
+.fin{
+  border-left: 3px solid #808080;
+  border-right: 3px solid #FF00009d;
+}
 .card button:hover {
   background-color: #16538c;
   transition-duration: .7s;
